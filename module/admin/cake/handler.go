@@ -4,8 +4,9 @@ import (
 	"errors"
 	"net/http"
 
+	"test-privy/helper/constant"
+
 	"github.com/jinzhu/copier"
-	"github.com/xdaawnx/test-privy/helper/constant"
 
 	"github.com/labstack/echo/v4"
 )

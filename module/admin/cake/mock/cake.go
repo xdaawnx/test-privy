@@ -8,8 +8,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	constant "github.com/xdaawnx/test-privy/helper/constant"
-	cake "github.com/xdaawnx/test-privy/module/admin/cake"
+	constant "test-privy/helper/constant"
+	cake "test-privy/module/admin/cake"
 )
 
 // MockCakeModel is a mock of CakeModel interface.

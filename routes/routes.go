@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/xdaawnx/test-privy/module/admin/cake"
+	"test-privy/module/admin/cake"
 
 	"github.com/labstack/echo/v4"
 	m "github.com/labstack/echo/v4/middleware"

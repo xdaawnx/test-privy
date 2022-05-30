@@ -1,6 +1,6 @@
 package main
 
-import "github.com/xdaawnx/test-privy/core/boot"
+import "test-privy/core/boot"
 
 func init() {
 	boot.Init()

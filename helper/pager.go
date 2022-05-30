@@ -6,8 +6,8 @@ import (
 	"math"
 	"strings"
 
-	"github.com/xdaawnx/test-privy/core/db"
-	"github.com/xdaawnx/test-privy/helper/constant"
+	"test-privy/core/db"
+	"test-privy/helper/constant"
 
 	"github.com/jinzhu/gorm"
 )

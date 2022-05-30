@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/xdaawnx/test-privy/core/db"
-	helper "github.com/xdaawnx/test-privy/helper"
-	"github.com/xdaawnx/test-privy/middleware/access"
-	"github.com/xdaawnx/test-privy/middleware/customcfg"
-	routes "github.com/xdaawnx/test-privy/routes"
+	"test-privy/core/db"
+	helper "test-privy/helper"
+	"test-privy/middleware/access"
+	"test-privy/middleware/customcfg"
+	routes "test-privy/routes"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

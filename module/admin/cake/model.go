@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xdaawnx/test-privy/core/db"
-	helper "github.com/xdaawnx/test-privy/helper"
-	"github.com/xdaawnx/test-privy/helper/constant"
+	"test-privy/core/db"
+	helper "test-privy/helper"
+	"test-privy/helper/constant"
 
 	"github.com/jinzhu/copier"
 	"github.com/jinzhu/gorm"

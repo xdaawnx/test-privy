@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xdaawnx/test-privy/helper/constant"
+	"test-privy/helper/constant"
 
 	"github.com/johansetia/jowt"
 )

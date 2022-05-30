@@ -4,11 +4,12 @@ import (
 	"fmt"
 	"testing"
 
+	"test-privy/helper"
+	"test-privy/helper/constant"
+	cake "test-privy/module/admin/cake"
+
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"github.com/xdaawnx/test-privy/helper"
-	"github.com/xdaawnx/test-privy/helper/constant"
-	cake "github.com/xdaawnx/test-privy/module/admin/cake"
 )
 
 func TestListCakes(t *testing.T) {

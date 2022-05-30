@@ -4,10 +4,11 @@ import (
 	"errors"
 	"strings"
 
+	"test-privy/core/db"
+
 	"github.com/go-ozzo/ozzo-validation/is"
 	v "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/jinzhu/gorm"
-	"github.com/xdaawnx/test-privy/core/db"
 )
 
 type (

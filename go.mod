@@ -1,4 +1,4 @@
-module github.com/xdaawnx/test-privy
+module test-privy
 
 go 1.17
 
@@ -13,6 +13,7 @@ require (
 	github.com/joho/godotenv v1.4.0
 	github.com/labstack/echo/v4 v4.7.2
 	github.com/stretchr/testify v1.7.1
+	github.com/xdaawnx/test-privy v0.0.0-20220530133309-85e844333e79
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 )
