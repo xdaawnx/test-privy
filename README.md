@@ -6,8 +6,10 @@ This repo for privy test
 - Rename **.env.example** to **.env** and change settings with yours 
 - Download required packages with command
     > **go get**
+- Install goose with command
+    > **go install github.com/pressly/goose/v3/cmd/goose@latest**
 - Migrate database with command (change **user**, **password**, **dbname** with yours)
-    > **goose -dir database/migration/ mysql "root:@/test_privy?parseTime=true" up**
+    > **goose -dir database/migration/ mysql "user:password@/dbname?parseTime=true" up**
 - Start the app with command
     > **go run main.go** 
 - Test Cake API, example :
