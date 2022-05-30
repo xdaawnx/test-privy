@@ -1,6 +1,6 @@
 -- +goose Up
 -- +goose StatementBegin
-CREATE TABLE `ref_error_codess` (
+CREATE TABLE `ref_error_codes` (
   `code` char(3) NOT NULL COMMENT 'Error codes',
   `message` varchar(255) DEFAULT NULL COMMENT 'Message of error',
   `messageID` varchar(255) DEFAULT NULL,

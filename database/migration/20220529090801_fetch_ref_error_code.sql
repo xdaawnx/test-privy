@@ -1,6 +1,6 @@
 -- +goose Up
 -- +goose StatementBegin
-INSERT INTO ref_error_codess (code,message,messageID,description,created_date,created_by,updated_date,updated_by) VALUES
+INSERT INTO ref_error_codes (code,message,messageID,description,created_date,created_by,updated_date,updated_by) VALUES
 	 ('001','Payment is currently being processed','Pembayaran sedang di proses',NULL,'2019-11-21 13:43:22',1,'2019-11-21 09:33:40',1),
 	 ('100','Decrypt Failed',NULL,NULL,'2019-11-19 13:43:22',1,'2019-11-19 06:43:25',1),
 	 ('101','Invalid Parent Format',NULL,NULL,'2019-11-19 13:43:22',1,'2019-11-19 06:43:26',1),
